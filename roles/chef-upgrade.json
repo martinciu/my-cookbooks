@@ -1,0 +1,18 @@
+{
+  "name": "chef-upgrade",
+  "default_attributes": {
+
+  },
+  "json_class": "Chef::Role",
+  "recipes": [
+
+  ],
+  "description": "Use this role to upgrade Chef clients and server with the Opscode Chef cookbook. Requires that nodes are using chef::client or chef::server recipes.",
+  "chef_type": "role",
+  "override_attributes": {
+    "chef": {
+      "client_version": "0.7.10",
+      "server_version": "0.7.10"
+    }
+  }
+}
